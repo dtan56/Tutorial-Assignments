@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+.hero-image {
+    background-image: url('derek.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 8%;
+}
+.hero-text {
+    color: white;
+}
+
+.nav-bar {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+}
+
+.nav-bar a {
+    display: block;
+    padding: 60px;
+    text-decoration: none;
+    color: white;
+    font: bolder;
+    font-size: larger;
+}
+
+.About-me{
+    background-color: black;
+    text-align: left;
+    color: white;
+    margin-left: 150px;
+}
+
+.nav-bar a:hover {
+    background: grey;
+}
+
+.contact-me {
+    text-align: left;
+    color: white;
+    text-size-adjust: 30;
+    margin-left: 150px;
+}
+
+.resume {
+    padding: large;
+    font-size: large;
+    color: white;
+}
+.work-experience {
+    background-color: black;
+    text-align: left;
+    color: white;
+    margin-left: 150px;
+}
+
+.footer {
+    color: white;
+    margin-left: 150px;
+}
+
+.nav-bar a.active {
+    color: white;
+}
